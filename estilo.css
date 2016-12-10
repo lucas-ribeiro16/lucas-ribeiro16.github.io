@@ -1,0 +1,135 @@
+body{
+	line-height: 1.6;
+}
+.site-header {
+	background-color: #000;
+	background-image: url('footer_lodyas.png');
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.site-nav {
+	background: #CECECE;
+}
+
+.site-nav ul {
+	padding: 0 20px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.site-nav li {
+	display: inline-block;
+
+}
+
+.site-nav a {
+	color: #333333;
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 2px solid #CECECE;
+
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+	background: #333;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.site-nav a:active {
+	background: #555;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+	width: 1024px;
+	margin:0 auto;
+
+}
+
+.sobre .image{
+	width: 300px;
+	float:left;
+	margin: 15px;
+}
+
+.wrapper-content{
+	margin-left:354px;
+}
+
+.form-group {
+	margin: 15px 0;
+}
+
+.form-group label,
+.form-group .form-control{
+	display: block; 
+}
+
+.form-group .form-control{
+	border: none;
+    border-bottom: 2px solid #7D7D7D;
+    transition: .15s border;
+    width: 100%;
+}
+
+.form-group .form-control, 
+.form-group .form-control:focus,
+.form-group .textarea:focus{
+	outline: none;
+}
+
+.form-group .form-control:focus{
+	border-bottom: 4px solid #555;
+}
+
+.form-group .textarea{
+	display: block;
+	width: 100%;
+	border: 2px solid #7D7D7D;
+	transition: .15s border;
+}
+
+.form-group .textarea:focus{
+	border: 2px solid #555;	
+	border-bottom-width: 4px;
+
+}
+
+.button{
+	border: 2px solid #555;	
+	background: #555;
+	color: #fff;
+	padding: 8px 15px;
+	float: right;
+}
+
+.wrapper-contato{
+	max-width: 500px;
+}
+
+.wrapper-contato .title, 
+.wrapper-contato h2{
+	text-align: center;
+	margin: 0;
+}
+
+.bg-cinza{
+	background-color: hsl(90,100%,70%);
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+
