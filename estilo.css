@@ -124,12 +124,17 @@ h1{
 }
 
 .bg-cinza{
-	background-color: hsl(90,100%,70%);
+	background-color: #CECECE;
+	padding: 2em 0;
 }
 
 .clearfix{
 	clear: both;
 }
 
+.footer{
+	text-align: center;
+	padding: 15px;
+}
 
 
