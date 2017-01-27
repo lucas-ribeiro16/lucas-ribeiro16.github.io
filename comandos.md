@@ -54,4 +54,12 @@ Ou **ctrl+L**
 
         history
         
-##         
+## criar uma pasta
+
+        md
+        
+## criar uma nota
+
+        Digite " copy con newfile.txt " e pressione " Enter". Substituir " newfile.txt " com o nome que deseja usar para o arquivo. Este comando inicia um editor , então as próximas linhas de texto que introduzir são adicionados ao arquivo . 
+        
+        
