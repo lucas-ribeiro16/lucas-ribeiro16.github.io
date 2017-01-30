@@ -29,5 +29,6 @@ Buscar alterações no servidor
 ```git pull```
 
 ## Push
+Publicar alterações
 
-`` git push origin master```
+``` git push origin master```
