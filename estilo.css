@@ -3,11 +3,11 @@ body{
 }
 .site-header {
 	background-color: #000;
+	background-size: 1173px 700px ;
 	background-image: url('workspace.png');
 	overflow: hidden;
 	text-align: center;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
 }
 
 .site-nav {
@@ -47,7 +47,10 @@ body{
 }
 
 h1{
-	font-family: 'Raleway', sans-serif;
+
+	font-size: 66px;
+	font-family: 'Lobster', cursive;
+
 }
 
 .container{
