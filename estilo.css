@@ -4,7 +4,7 @@ body{
 .site-header {
 	background-color: #000;
 	background-size: 1173px 700px ;
-	background-image: url('workspace.png');
+	background-image: url('workspace9.png');
 	overflow: hidden;
 	text-align: center;
 	color: #fff;
@@ -78,7 +78,7 @@ h1{
 
 .site-header .title, 
 .site-header .subtitle{
-	text-shadow: 2px 2px rgba(0,0,0,.4);
+	text-shadow: 3px 3px rgba(0,0,0,.4);
 
 }
 
@@ -109,7 +109,7 @@ h1{
 
 .form-group .form-control{
 	border: none;
-    border-bottom: 2px solid #7D7D7D;
+    border-bottom: 2px solid #1968BF;;
     transition: .15s border;
     width: 100%;
 }
@@ -121,25 +121,32 @@ h1{
 }
 
 .form-group .form-control:focus{
-	border-bottom: 4px solid #555;
+	border-bottom: 4px solid #1968BF;
 }
+
+.form-group .font,
+.form-group .font1,
+.form-group .font2{
+	color: #fff;
+	border-bottom: 4px solid #1968BF;
+}	
 
 .form-group .textarea{
 	display: block;
 	width: 100%;
-	border: 2px solid #7D7D7D;
+	border: 2px solid #1968BF;
 	transition: .15s border;
 }
 
 .form-group .textarea:focus{
-	border: 2px solid #555;	
+	border: 2px solid #1968BF;;	
 	border-bottom-width: 4px;
 
 }
 
 .button{
-	border: 2px solid #555;	
-	background: #555;
+	border: 2px solid #fff;	
+	background: #1968BF;
 	color: #fff;
 	padding: 8px 15px;
 	float: right;
@@ -155,9 +162,15 @@ h1{
 	margin: 0;
 }
 
-.bg-cinza{
-	background-color: #CECECE;
+.wrapper-contato h2{
+	color: #fff;
+	text-shadow: 3px 3px rgba(0,0,0,.4);
+}
+
+.bg-cinza{	
+	background-image: url(workspace.png);
 	padding: 2em 0;
+	image-orientation: 100%;
 }
 
 .clearfix{
@@ -167,6 +180,9 @@ h1{
 .footer{
 	text-align: center;
 	padding: 15px;
+	background-color: #4C90BF;
 }
 
-
+.footer .container{
+	color: #fff;
+}
