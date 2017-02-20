@@ -2,12 +2,12 @@ body{
 	line-height: 1.6;
 }
 .site-header {
+	padding: 2em 0;
 	background-color: #000;
-	background-size: 1173px 700px ;
-	background-image: url('workspace9.png');
 	overflow: hidden;
 	text-align: center;
 	color: #fff;
+	 background: transparent;
 }
 
 .site-nav {
@@ -108,9 +108,10 @@ h1{
 }
 
 .form-group .form-control{
-	border: none;
-    border-bottom: 2px solid #1968BF;;
-    transition: .15s border;
+	height: 1.5em;
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-shadow: inset 1px 2px 3px rgba(0,0,0,.1);
     width: 100%;
 }
 
@@ -121,26 +122,23 @@ h1{
 }
 
 .form-group .form-control:focus{
-	border-bottom: 4px solid #1968BF;
+	/*border-bottom: 4px solid #1968BF;*/
 }
 
 .form-group .font,
 .form-group .font1,
 .form-group .font2{
 	color: #fff;
-	border-bottom: 4px solid #1968BF;
 }	
 
 .form-group .textarea{
 	display: block;
 	width: 100%;
-	border: 2px solid #1968BF;
 	transition: .15s border;
 }
 
 .form-group .textarea:focus{
-	border: 2px solid #1968BF;;	
-	border-bottom-width: 4px;
+	/*border-bottom-width: 4px;*/
 
 }
 
@@ -156,11 +154,18 @@ h1{
 	max-width: 500px;
 }
 
-.wrapper-contato .title, 
+.wrapper-contato .title,
 .wrapper-contato h2{
 	text-align: center;
 	margin: 0;
 }
+
+.wrapper-contato .title{
+	color: #fff;
+	text-shadow: 3px 3px rgba(0,0,0,.4);
+
+}
+
 
 .wrapper-contato h2{
 	color: #fff;
@@ -168,9 +173,11 @@ h1{
 }
 
 .bg-cinza{	
-	background-image: url(workspace.png);
+	background-size: cover;
+	background-image: url(workspace3.png);
 	padding: 2em 0;
 	image-orientation: 100%;
+	
 }
 
 .clearfix{
